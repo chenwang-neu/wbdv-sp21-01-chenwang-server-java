@@ -1,0 +1,70 @@
+.wbdv-sticky-nav-bar {
+    background-color: #4186F5;
+    padding:10px;
+    position:fixed;
+    width:100%;
+    z-index:2;
+}
+
+body{
+    background-color:#EEEEEE;
+}
+
+.icon-danger {
+  color : red;
+}
+
+.icon-white {
+  color : white;
+}
+
+.wbdv-input{
+    background-color:#6199F6;
+}
+
+.wbdv-title{
+    color:white;
+}
+
+.container {
+    padding-top:70px;
+}
+
+.wbdv-tablehead{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+    background-color:#A9A9A9;
+    font-size:125%;
+    z-index:1;
+}
+
+::placeholder {
+  color:white;
+  font-size:1.2em;
+  font-style:italic;
+}
+
+.wbdv-grid{
+    background-color:white;
+    box-shadow: 0 0 0 1px #EEEEEE;
+}
+
+@media screen and (max-width:1200px){
+    .displayTitle{
+        display:None;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .displayTime{
+        display:None;
+    }
+}
+
+@media screen and (max-width:600px){
+    .displayOwner{
+        display:None;
+    }
+}
+
