@@ -1,0 +1,11 @@
+.wbdv-editor-header{
+    padding:10px;
+    width:100%;
+    z-index:2;
+}
+
+.wbdv-editor-title{
+    color:white;
+    font-size:2em;
+}
+

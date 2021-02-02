@@ -5,59 +5,91 @@
     <title>Editor</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./editor.style.client.css">
 </head>
 <body>
+
     <div class="container">
-        <h1>Editor</h1>
-        <div class="row">
-            <div class="col-4">
-                Module List
-                <ul class="list-group">
-                    <li class="list-group-item">Cras justo odio
-                        <i class="fas fa-times float-right"></i>
-                    </li>
-                    <li class="list-group-item">
-                        Dapibus ac facilisis in
-                        <i class="fas fa-times float-right"></i>
-                    </li>
-                    <li class="list-group-item">Morbi leo risus</li>
-                    <li class="list-group-item">Porta ac consectetur ac</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                </ul>
+        <div class="row wbdv-editor-header bgcolor-darkgrey">
+            <div class="col-4 wbdv-editor-title">
+                <i class="p-2 fas fa-times"></i>CS5610-WebDev
             </div>
             <div class="col-8">
                 <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    <li class="col-2 nav-item">
+                        <a class="nav-link color-grey" aria-current="page" href="#">Build</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                    <li class="col-2 nav-item">
+                        <a class="nav-link bgcolor-black color-white" href="#">Theme</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                    <li class="col-2 nav-item">
+                        <a class="nav-link color-grey" href="#">Store</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <li class="col-2 nav-item">
+                        <a class="nav-link color-grey" href="#">Apps</a>
                     </li>
-                </ul>
-
-                <br/>
-
-                <ul class="nav nav-pills">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    <li class="col-2 nav-item">
+                        <a class="nav-link color-grey" href="#">Settings</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
+                    <i class="p-2 fas fa-plus fa-2x float-right color-white"></i>
                 </ul>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-4 bgcolor-black">
+                <ul class="list-group">
+                    <br/>
+                    <span class="p-2 btn btn-block bgcolor-darkgrey color-white">Module 1 - jQuery
+                    <i class="p-2 fas fa-times float-right color-white"></i>
+                    </span>
+                    <span class="p-2 btn btn-block btn-primary color-white">Module 2 - React
+                    <i class="p-2 fas fa-times float-right color-white"></i>
+                    </span>
+                    <span class="p-2 btn btn-block bgcolor-darkgrey color-white">Module 3 - Redux
+                    <i class="p-2 fas fa-times float-right color-white"></i>
+                    </span>
+                    <span class="p-2 btn btn-block bgcolor-darkgrey color-white">Module 4 - Native
+                    <i class="p-2 fas fa-times float-right color-white"></i>
+                    </span>
+                    <span class="p-2 btn btn-block bgcolor-darkgrey color-white">Module 5 - Angular
+                    <i class="p-2 fas fa-times float-right color-white"></i>
+                    </span>
+                    <span class="p-2 btn btn-block bgcolor-darkgrey color-white">Module 6 - Node
+                    <i class="p-2 fas fa-times float-right color-white"></i>
+                    </span>
+                    <span class="p-2 btn btn-block bgcolor-darkgrey color-white">Module 7 - Mongo
+                    <i class="p-2 fas fa-times float-right color-white"></i>
+                    </span>
+                    <div class="col-13">
+                        <i class="p-3 fas fa-plus float-right color-white"></i>
+                    </div>
+                </ul>
+            </div>
+            <div class="col-8">
+                <br/>
+                <ul class="nav nav-pills">
+                    <li class="nav-item col-2">
+                        <a class="p-2 nav-link bgcolor-grey color-white" href="#">Topic 1</a>
+                    </li>
+                    <li class="nav-item col-2">
+                        <a class="nav-link active color-white" href="#">Topic 2</a>
+                    </li>
+                    <li class="nav-item col-2">
+                        <a class="p-2 nav-link bgcolor-grey color-white" href="#">Topic 3</a>
+                    </li>
+                    <li class="nav-item col-2">
+                        <a class="p-2 nav-link bgcolor-grey color-white" href="#">Topic 4</a>
+                    </li>
+                    <i class="fas fa-plus-square fa-2x"></i>
+                </ul>
+                <div class="p-3 col-11">
+                    <i class="fas fa-toggle-off fa-2x icon-config float-right"></i>
+                    <span class=" btn btn-success color-white float-right">save</span>
+                </div>
+
+            </div>
+
         </div>
     </div>
 
