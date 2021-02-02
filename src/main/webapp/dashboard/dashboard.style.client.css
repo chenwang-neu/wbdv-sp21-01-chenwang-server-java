@@ -45,10 +45,6 @@ body{
   font-style:italic;
 }
 
-.wbdv-grid{
-    background-color:white;
-    box-shadow: 0 0 0 1px #EEEEEE;
-}
 
 @media screen and (max-width:1200px){
     .displayTitle{
