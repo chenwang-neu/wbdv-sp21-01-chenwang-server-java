@@ -9,8 +9,18 @@ public class Widget {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String topicId;
+    private String name;
+    private String type;
+    private Integer widgetOrder;
+    private Integer size;
+    private String text;
+    private Integer width;
+    private Integer height;
+    private String src;
+    private String cssClass;
+    private String style;
+    private String value;
 
     public String getName() {
         return name;
@@ -51,18 +61,6 @@ public class Widget {
     public void setValue(String value) {
         this.value = value;
     }
-
-    private String name;
-    private String type;
-    private Integer widgetOrder;
-    private Integer size;
-    private String text;
-    private Integer width;
-    private Integer height;
-    private String src;
-    private String cssClass;
-    private String style;
-    private String value;
 
     public Integer getWidth() {
         return width;
@@ -131,13 +129,16 @@ public class Widget {
     public Widget() {
     }
 
-    public Widget(Long id, String topicId, String type, Integer size, String text) {
+    public Widget(Long id, String topicId, String type, Integer size
+            , String text,Integer widgetOrder, Integer width, Integer height, String src ) {
         this.id = id;
-        this.topicId = topicId;
         this.type = type;
-        this.size = size;
         this.text = text;
+        this.size = size;
+        this.topicId = topicId;
+        this.widgetOrder = widgetOrder;
+        this.width = width;
+        this.height = height;
+        this.src = src;
     }
-
-
 }
